@@ -1,0 +1,334 @@
+{
+  "introduction": [
+    "hi, i am tega. my friend is having a birthday party. everything is set, but the balloons. will you help me find some balloons?"
+  ],
+  "ask_again": [
+    "do you want to play with me?",
+    "i will be very happy if you played with me, would you?"
+  ],
+  "lets_play": [
+    "great, lets play. we need to go to the magic treasure room."
+  ],
+  "selection_tutorial": {
+   "all" : [
+    "this is the magic treasure room. it is filled with magical treasure boxes. in each treasure box, you will find exactly what you seek, if you can open it. the lock to each magic box is a puzzle. first we need to choose which box to try and open."
+    ],
+    "neutral" : [
+      "i will choose this one."
+    ],
+    "growth" : [
+      "i will choose this one, it looks challenging."
+    ]
+  },
+  "tangram_tutorial": {
+    "all" : [
+      "these puzzels are made of pieces of different shapes. we need to find where to put them to fill in the shaded area. we have two minutes to try, until the sand in the hourglass runs out."
+    ],
+    "neutral": [
+      "i will move the piece to this place."
+    ],
+    "growth": [
+      "i want to try something new. maybe move this piece here."
+    ]
+  },
+  "selection_explanation": [
+    "this is the magic treasure room. "
+  ],
+  "tangram_explanation": {
+    "all" : [
+      "these puzzels are made of pieces of different shapes. we need to find where to put them to fill in the shaded area."
+    ],
+    "neutral": [
+      "i will move the piece to this place."
+    ],
+    "growth": [
+      "i want to try something new. maybe move this piece here."
+    ]
+  },
+  "move_explanation": {
+    "neutral": [
+      "let me try this move",
+      "I'll move it here",
+      "lets try this move",
+      "I'll move this piece"
+    ],
+    "growth": [
+      "its really hard. maybe I'll move this piece here",
+      "i am sure i can figure it out. i will move this piece.",
+      "its really hard. maybe I'll move the piece here",
+      "this is challenging, let me try this move",
+      "I wonder what I'll learn if I'll move it here",
+      "lets try something new",
+      "If I'll keep trying I will succeed",
+      "maybe I'll try a new strategy",
+      "I'll try something I didn't do before"
+    ]
+  },
+  "turn_explanation": {
+    "all": [
+      "the piece is in place, but it doesnt fit."
+    ],
+    "neutral": [
+      "let me try this move",
+      "I'll move it here",
+      "lets try this move",
+      "I'll move this piece"
+    ],
+    "growth": [
+      "its really hard. i will press this button.",
+      "i am sure i can figure it out. i will press this button.",
+      "its really hard. maybe I'll rotate this piece",
+      "this is challenging, let me try to rotate it",
+      "I wonder what I'll learn if I'll rotate this piece",
+      "lets try something new",
+      "If I'll keep trying I will succeed",
+      "maybe I'll try a new strategy",
+      "I'll try something I didn't do before"
+    ]
+  },
+  "your_turn": {
+    "all": [
+      "its your turn now.",
+      "you try to open a box now.",
+      "now you get us a new balloon.",
+      "you are next",
+      "ok, now you",
+      "so, it is your turn now"
+    ],
+    "neutral": [
+      "start by selecting a box.",
+      "which box do you want to select?",
+      "select one of the boxes",
+      "please select a box",
+      "start by selecting a treasure",
+      "please select a treasure",
+      "which one do you think you can solve?"
+    ],
+    "growth": [
+      "i am sure you can do it.",
+      "try hard and you will succeed.",
+      "we learned new things that will help you in the next puzzle.",
+      "if you choose a challenging puzzle, you will learn more",
+      "which one is the most challenging?",
+      "if you choose a hard one, you will get more brain power",
+      "I prefer the challenging one"
+    ]
+  },
+  "child_win": {
+    "neutral": [
+      "good job",
+      "great playing",
+      "you did it",
+      "You beat the challenge! You really used your skills on that game",
+      "very good",
+      "you solved the puzzle",
+      "good! now we have more balloons for the party"
+    ],
+    "growth": [
+      "you worked real hard",
+      "that wasn't easy, you did it",
+      "you learned and nailed it",
+      "you used your brain power, great job",
+      "working hard is worth it",
+      "Wow, you really practiced that, and look how you've improved",
+      "I like the way you tried all kinds of strategies on that problem until you finally got it",
+      "You tried hard and made it!",
+      "You seem to be on the right track",
+      "You tried different strategies",
+      "You are not afraid of a challenge. I like that!",
+      "If you like new challenges, you can get better and better!",
+      "Good job trying something new and different - I know you haven't done this before",
+      "You beat the challenge! You really worked out your brain on this game"
+    ]
+  },
+  "robot_win": {
+    "neutral": [
+      "yay",
+      "woohoo",
+      "I beat the challenge! I really used my skills on that game",
+      "great, I got us another balloon for the party",
+      "I did it!",
+      "I solved the puzzle",
+      "yes! I'm good at solving puzzles"
+    ],
+    "growth": [
+      "i used my brainpower and did it",
+      "that was hard but i nailed it",
+      "working hard is worth it",
+      "Wow, I really practiced that, and look how I have improved",
+      "I like the way I tried all kinds of strategies on that problem until I finally got it",
+      "I tried hard and made it!",
+      "I seem to be on the right track",
+      "I tried different strategies",
+      "I'm not afraid of a challenge. I like it!",
+      "I like new challenges, I can get better and better!",
+      "I tried something new and different - I know I haven't done this before"
+    ]
+  },
+  "robot_lose": {
+    "neutral": [
+      "that was hard",
+      "i didn't succeed",
+      "I'm not very good at that",
+      "I hope to have better luck next time",
+      "times up",
+      "that was difficult"
+    ],
+    "growth": [
+      "i didnt work hard enough, next time will be better.",
+      "no matter, we learned new things.",
+      "I worked hard, next time I will succeed.",
+      "we learned so much, we will do better next time",
+      "I tried very hard. That's what matters",
+      "I'm proud of myself for trying really hard",
+      "I never gave up even when it was hard",
+      "Ah, I didn't make it in time, but I can try different methods. I should try again",
+      "That was hard, but I have learned a lot. I'll do better next time",
+      "That puzzle really taught me to think differently",
+      "That's an interesting strategy. Let's think about why it didn't work and whether it gives us some clues for a new path. What should we try next?",
+      "This is going to take some time and effort",
+      "Mistakes help me improve",
+      "I tried different strategies",
+      "I'm not afraid of a challenge. I like it!",
+      "I like new challenges, I can get better and better!",
+      "I tried something new and different - I know I haven't done this before"
+    ]
+  },
+  "child_lose": {
+    "neutral": [
+      "next time, friend.",
+      "that was really hard",
+      "You didn’t beat that challenge, but you can use your skills to try again on the next game!",
+      "better luck next time",
+      "maybe it will be easier next time",
+      "that was difficult"
+    ],
+    "growth": [
+      "you worked hard, next time you will succeed.",
+      "we learned so much, we will do better next time",
+      "you tried very hard. That's what matters",
+      "I'm proud that you tried really hard",
+      "you never gave up even when it was hard",
+      "Ah, you didn't make it in time, but you can try different methods. You should try again",
+      "That was hard, but you must have learned a lot. You'll do better next time",
+      "That puzzle really taught you to think differently, didn't it?",
+      "That's an interesting strategy. Let's think about why it didn't work and whether it gives us some clues for a new path. What should we try next?",
+      "This is going to take some time and effort",
+      "Mistakes help you improve",
+      "You tried different strategies",
+      "You are not afraid of a challenge. I like that!",
+      "If you like new challenges, you can get better and better!",
+      "Good job trying something new and different - I know you haven't done this before",
+      "You didn’t master that challenge yet, but you can keep growing your brain by practicing on the next games!"
+    ]
+  },
+  "my_turn": {
+    "all": [
+      "its my turn now.",
+      "I will try to open a box now.",
+      "I'm next",
+      "ok, now me",
+      "so, it is my turn now"
+    ],
+    "neutral": [
+      "I will select a box"
+    ],
+    "growth":[
+      "i will work hard to get us the next balloon.",
+      "i learned so much, i am sure i will succeed the next one",
+      "i am sure I can do it",
+      "If I will try hard I will succeed.",
+      "we learned new things that will help me in the next puzzle.",
+      "if I choose a challenging puzzle, I will learn more",
+      "which one is the most challenging...",
+      "if I'll choose a hard one, I will get more brain power",
+      "I prefer the challenging one"
+    ]
+  },
+  "comment_selection": {
+    "neutral": [
+      "lets select an easy one.",
+      "what do you think, which should we choose?",
+      "lets select one of the treasures",
+      "lets get some more balloons"
+    ],
+    "growth": [
+      "lets select a challenging one",
+      "i want to try a hard one",
+      "I want to learn something new, lets choose a challenging box",
+      "this one looks hard, lets try it",
+      "I want more brain power, lets choose the challenging puzzle",
+      "lets try something new"
+    ]
+  },
+  "comment_move": {
+    "neutral": [
+      "maybe this piece goes over here",
+      "this looks like a good solution",
+      "nice move",
+      "ok",
+      "good"
+    ],
+    "growth": [
+      "lets try something new",
+      "we are working hard to solve this puzzle",
+      "the more you try, the more you learn",
+      "great!",
+      "keep on trying",
+      "this is challenging, I like challenges!",
+      "interesting strategy",
+      "keep trying new ideas",
+      "this is a great idea",
+      "this is a creative move, very good",
+      "what can you do next?",
+      "hmm, what can we learn from this move.."
+    ]
+  },
+  "comment_turn": {
+    "neutral": [
+      "maybe this piece needs to turn.",
+      "this looks like a good solution",
+      "nice move",
+      "ok",
+      "good"
+    ],
+    "growth": [
+      "we are working hard to solve this puzzle",
+      "the more you try, the more you learn",
+      "great!",
+      "keep on trying",
+      "this is challenging, I like challenges!",
+      "interesting strategy",
+      "keep trying new ideas",
+      "this is a great idea",
+      "this is a creative move, very good",
+      "what can you do next?",
+      "hmm, what can we learn from this turn.."
+    ]
+  },
+  "explain_challenge": {
+    "all": [
+      "these puzzles look very hard."
+    ],
+    "growth" :[
+      "i am sure that if you try hard, you can succeed."
+    ],
+    "neutral": [
+      "pick one of them."
+    ]
+  },
+  "conclusion": {
+    "all": [
+      "thanks for helping me."
+    ],
+    "growth": [
+      "we worked really hard and it was worth it. the party is going to be so great. lets party."
+    ],
+    "neutral": [
+      "we got so many balloons. the party is going to be so great. lets party."
+    ]
+  },
+  "test": [
+    "test"
+  ]
+}

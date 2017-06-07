@@ -1,0 +1,396 @@
+{
+  "introduction": [
+    "hi, I am tega. my friend is having a birthday party. everything is set, but the balloons. will you help me find some balloons?"
+  ],
+  "ask_again": [
+    "do you want to play with me?",
+    "I will be very happy if you play with me, would you?"
+  ],
+  "lets_play": [
+    "great, lets play. we need to go to the magic treasure room."
+  ],
+  "selection_tutorial": {
+   "all" : [
+    "this is the magic treasure room. it is filled with magical treasure boxes. in each treasure box, you will find exactly what you are looking for, if you can open it. the lock to each magic box is a puzzle. first we need to choose which box to try to open."
+    ],
+    "c-g-" : [
+      "I will choose this one."
+    ],
+    "c-g+" : [
+      "I will choose this one, because it looks challenging!"
+    ],
+    "c+g-": [
+      ""
+    ],
+    "c+g+": [
+      ""
+    ]
+  },
+  "tangram_tutorial": {
+    "all" : [
+      "these puzzles are made of pieces of different shapes. we need to find where to put them to fill in the grey area. we have two minutes to try, until the sand in the hourglass runs out."
+    ],
+    "c-g-": [
+      "I will move the piece to this place."
+    ],
+    "c-g+": [
+      "I will move the piece to this place."
+    ],
+    "c+g-": [
+      "I want to try something new. maybe move this piece here."
+    ],
+    "c+g+": [
+      "I want to try something new. maybe move this piece here."
+    ]
+  },
+  "selection_explanation": [
+    "this is the magic treasure room. "
+  ],
+  "tangram_explanation": {
+    "all" : [
+      "these puzzles are made of pieces of different shapes. we need to find where to put them to fill in the grey area."
+    ],
+    "c-g-": [
+      "I will move the piece to this place."
+    ],
+    "c-g+": [
+      "I really want to succeed, I will move the piece to this place."
+    ],
+    "c+g-": [
+      "I want to try something new. maybe move this piece here."
+    ],
+    "c+g+": [
+      ""
+    ]
+  },
+  "move_explanation": {
+    "all": [
+      ""
+    ],
+    "c-g-": [
+      "it's hard",
+      "there",
+      "I'll move this piece",
+      "there are pieces left",
+      "it's too hard"
+    ],
+    "c-g+": [
+      "it’s quite hard, so I will try even more.",
+      "it’s quite hard, so I will try even more. let's move this piece.",
+      "ooh this is challenging, let me try this move",
+      "If I keep trying, I will succeed",
+      "maybe I'll try again",
+      "I'll try again"
+    ],
+    "c+g-": [
+      "I wonder what I'll learn if I move it here",
+      "let’s try something new",
+      "I'll try something I didn't do before"
+    ],
+    "c+g+": [
+      "I am sure I can figure it out. I will move this piece."
+    ]
+
+  },
+  "rotation_explanation": {
+    "all": [
+      ""
+    ],
+    "c-g-": [
+      "let me try this move",
+      "let me try to rotate it",
+      "let me try this rotation",
+      "I'll move it here",
+      "let’s try this move",
+      "I'll move this piece"
+    ],
+    "c-g+": [
+      "I am sure I can figure it out. I will press this button.",
+      "it’s really hard. maybe I'll rotate this piece",
+      "this is challenging, let me try to rotate it",
+      "If I keep trying, I will succeed",
+    ],
+    "c+g-": [
+      "let me try something new. I will press this button.",
+      "I wonder what I'll learn if I rotate this piece",
+      "let’s try something new",
+      "I'll try something I didn't do before",
+      "maybe I'll try a new strategy"
+    ],
+    "c+g+": [
+      ""
+    ]
+  },
+  "your_turn": {
+    "all": [
+      "its your turn now.",
+      "you try to open a box now.",
+      "now you get us a new balloon.",
+      "you are next",
+      "ok, now you",
+      "so, it is your turn now"
+    ],
+    "c-g-": [
+      "start by selecting a box.",
+      "which box do you want to select?",
+      "select one of the boxes",
+      "please select a box",
+      "start by selecting a treasure",
+      "please select a treasure",
+      "which one do you think you can solve?"
+    ],
+    "c-g+": [
+      "I am sure you can do it if you try hard",
+      "try hard and you will succeed."
+    ],
+    "c+g-": [
+      "we learned new things that will help you in the next puzzle.",
+      "if you choose a challenging puzzle, you will learn more"
+    ],
+    "c+g+": [
+      "which one is the most challenging?",
+      "I would prefer the challenging one"
+    ]
+  },
+  "child_win": {
+    "all":[
+      ""
+    ],
+    "c-g-": [
+      "good job",
+      "great playing",
+      "you did it",
+      "You beat the challenge! You really used your skills on that game",
+      "very good",
+      "you solved the puzzle",
+      "good! now we have more balloons for the party",
+      "You seem to be on the right track"     
+    ],
+    "c-g+": [
+      "you worked really hard",
+      "that wasn't easy, but you tried hard and succeeded",
+      "working hard is worth it",
+      "You tried hard and made it!",
+      "You are not afraid of a challenge. I like that!"
+    ],
+    "c+g-": [
+      "you learned and nailed it",
+      "Good job trying something new and different - I know you haven't done this before",
+      "you used your strategy, great job"
+    ],
+    "c+g+": [
+      "Wow, you really practiced that, and look how you've improved",
+      "I like the way you tried all kinds of strategies on that problem until you finally got it",
+      "You tried different strategies",
+      "If you like new challenges, you can get better and better!",
+      "You beat that challenge! You really worked out your brain on this game"
+    ]
+  },
+  "robot_win": {
+    "all":[
+      ""
+    ],
+    "c-g-": [
+      "yay",
+      "woohoo",
+      "I beat the challenge! I really used my skills on that game",
+      "great, I got us another balloon for the party",
+      "I did it!",
+      "I solved the puzzle",
+      "yes! I'm good at solving puzzles",
+      "I seem to be on the right track"
+    ],
+    "c-g+": [
+      "that was hard, but I tried hard and nailed it",
+      "working hard is worth it",
+      "I tried hard and made it!",
+      "I'm not afraid of a challenge. I like it!"
+    ],
+    "c+g-": [
+      "I tried something new and different - I know I haven't done this before",
+      "I tried a different strategy"
+    ],
+    "c+g+": [
+      "i worked out my brain and did it",
+      "Wow, I really practiced that, and look how I have improved",
+      "I like the way I tried all kinds of strategies on that problem until I finally got it",
+      "I tried different strategies",
+      "I like new challenges, I will get better and better!"
+    ]
+  },
+  "robot_lose": {
+    "all":[
+      ""
+    ],
+    "c-g-": [
+      "that was hard",
+      "I didn't succeed",
+      "I hope to have better luck next time",
+      "times up",
+      "that was difficult"
+    ],
+    "c-g+": [
+      "next time I will put more effort.",
+      "next time I will try harder.",
+      "I worked hard, next time I will succeed.",
+      "I tried very hard. That's what matters",
+      "I'm proud of myself for trying really hard",
+      "I never gave up even when it was hard",
+      "This is going to take some time and effort",
+      "I'm not afraid of a challenge. I like it!"
+    ],
+    "c+g-": [
+      "I failed, but that's okay. we learned new things.",
+      "I learned so much, I will do better next time",
+      "That was hard, but I have learned a lot. I'll do better next time",
+      "That puzzle really taught me to think differently",
+      "That's an interesting strategy. Let's think about why it didn't work and whether it gives us some clues for a new path. What should we try next?",
+      "Mistakes help me improve",
+      "I tried something new and different - I know I haven't done this before"
+    ],
+    "c+g+": [
+      "Ah, I didn't make it in time, but I can try different methods. I should try again",
+      "I tried different strategies",
+      "I like new challenges, I can get better and better!"
+    ]
+  },
+  "child_lose": {
+    "c-g-": [
+      "next time, friend.",
+      "that was really hard",
+      "You didn’t beat that challenge, but you can use your skills to try again on the next game!",
+      "better luck next time",
+      "maybe it will be easier next time",
+      "that was difficult"
+    ],
+    "c-g+": [
+      "you worked hard, next time you will succeed.",
+      "you tried very hard. That's what matters",
+      "I'm proud that you tried really hard",
+      "you never gave up even when it was hard",
+      "This is going to take some time and effort",
+      "You are not afraid of a challenge. I like that!",
+    ],
+    "c+g-": [
+      "we learned so much",
+      "That was hard, but you must have learned a lot.",
+      "That puzzle really taught you to think differently, didn't it?",
+      "That's an interesting strategy. Let's think about why it didn't work and whether it gives us some clues for a new path. What should we try next?",
+      "Good job trying something new and different - I know you haven't done this before"
+    ],
+    "c+g+": [
+      "we learned so much, you will do better next time",
+      "That was hard, but you must have learned a lot. You'll do better next time",
+      "Ah, you didn't make it in time, but you can try different methods. You should try again",
+      "Mistakes help you improve",
+      "You tried different strategies",
+      "If you like new challenges, you can get better and better!",
+      "You didn’t master that challenge yet, but you can keep growing your brain by practicing on the next games!"
+    ]
+  },
+  "my_turn": {
+    "all": [
+      "its my turn now.",
+      "I will try to open a box now.",
+      "I'm next",
+      "ok, now me",
+      "so, it is my turn now"
+    ],
+    "c-g-": [
+      "I will select a box"
+    ],
+    "c-g+":[
+      "I will work hard to get us the next balloon.",
+      "I am sure I can do it",
+      "If I try hard, I will succeed."
+    ],
+    "c+g-": [
+      "I learned so much",
+      "we learned new things.",
+      "if I choose a challenging puzzle, I will learn more",
+      "if I'll choose a hard one, I will get more brain power",
+      "I prefer the challenging one"
+    ],
+    "c+g+": [
+      "I learned so much, I am sure I will succeed the next one",
+      "we learned new things that will help me in the next puzzle.",
+      "which one is the most challenging...",
+      "I prefer the challenging one, I will learn more and more."
+
+    ]
+  },
+  "comment_selection": {
+    "c-g-": [
+      "let's select one.",
+      "what do you think, which should we choose?",
+      "let's select one of the treasures",
+      "let's get some more balloons"
+    ],
+    "c-g+": [
+      "I want to try a new level",
+      "I want to nail down this level"
+    ],
+    "c+g-":[
+      "I want to challenge a new level",
+      "let's select a puzzle that we can learn some new things from",
+      "I want to learn something new, lets choose a challenging box",
+      "this one looks interesting, lets try it",
+      "lets try something new"
+    ],
+    "c+g+": [
+      "I want to work out my brain, lets choose the challenging puzzle"
+    ]
+  },
+  "comment_move": {
+    "c-g-": [
+      "maybe this piece goes over here",
+      "this looks like a good solution",
+      "nice move",
+      "ok",
+      "good",
+      "great!",
+    ],
+    "c-g+": [
+      "we are working hard to solve this puzzle",
+      "keep on trying"
+    ],
+    "c+g-": [
+      "lets try something new",
+      "this is a creative move, very good",
+      "interesting strategy",
+      "this is a great idea"
+    ],
+    "c+g+": [
+      "this is challenging, I like challenges!",
+      "keep trying new ideas",
+      "the more you try, the more you learn"
+    ]
+  },
+  "comment_rotation": {
+    "c-g-": [
+      "maybe this piece needs to be turned.",
+      "this looks like a good solution",
+      "nice move",
+      "ok",
+      "good",
+      "great!"
+    ],
+    "c-g+": [
+      "we are working hard to solve this puzzle",
+      "keep on trying"
+    ],
+    "c+g-": [
+      "keep trying new ideas",
+      "interesting strategy",
+      "this is a creative move, very good",
+      "this is a great idea"
+    ],
+    "c+g+": [
+      "the more you try, the more you learn",
+      "this is challenging, I like challenges!"
+    ]
+  },
+  "test": [
+    "test"
+  ]
+}

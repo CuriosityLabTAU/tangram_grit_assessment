@@ -1,0 +1,134 @@
+dif 1
+{"pieces": [["large triangle1", "0", "1 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "1 1"]], "size": "5 5"}
+{"pieces": [["parrallelogram", "90", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "90", "1 1"]], "size": "5 5"}
+{"pieces": [["small triangle2", "180", "1 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "180", "1 1"]], "size": "5 5"}
+{"pieces": [["parrallelogram", "180", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "1 1"]], "size": "5 5"}
+{"pieces": [["small triangle2", "270", "1 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "1 1"]], "size": "5 5"}
+{"pieces": [["parrallelogram", "270", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "270", "1 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "180", "0 1"], ["square", "0", "2 2"], ["parrallelogram", "270", "2 0"]], "size": "5 5"}
+dif 2
+{"pieces": [["large triangle1", "0", "1 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "2 1"], ["square", "0", "1 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "2 1"], ["small triangle2", "90", "1 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "1 1"], ["parrallelogram", "0", "1 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "1 1"], ["parrallelogram", "0", "2 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "1 1"], ["small triangle2", "90", "2 1"]], "size": "5 5"}
+{"pieces": [["square", "0", "2 1"], ["small triangle2", "90", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "0 1"], ["square", "0", "1 1"]], "size": "5 5"}
+{"pieces": [["small triangle2", "90", "1 1"], ["small triangle1", "0", "1 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "1 2"], ["large triangle1", "180", "1 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "1 2"], ["square", "180", "2 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "1 2"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}
+dif 3
+{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "1 2"], ["small triangle1", "0", "0 2"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "1 2"], ["square", "180", "1 1"], ["small triangle2", "90", "2 0"]], "size": "5 5"}
+{"pieces": [["square", "180", "3 2"], ["small triangle2", "90", "2 0"], ["large triangle1", "180", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "0 0"], ["square", "180", "1 1"], ["large triangle1", "180", "0 2"]], "size": "5 5"}
+{"pieces": [["square", "180", "1 1"], ["large triangle1", "90", "0 2"], ["parrallelogram", "180", "2 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "1 0"], ["small triangle1", "180", "2 2"], ["large triangle1", "90", "0 2"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "1 0"], ["square", "180", "1 2"], ["small triangle1", "180", "2 2"]], "size": "5 5"}
+{"pieces": [["square", "180", "1 2"], ["small triangle2", "90", "1 1"], ["small triangle1", "90", "2 2"]], "size": "5 5"}
+{"pieces": [["square", "180", "1 1"], ["small triangle2", "90", "2 0"], ["parrallelogram", "180", "1 2"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "1 0"], ["small triangle1", "180", "2 0"], ["parrallelogram", "0", "1 2"]], "size": "5 5"}
+{"pieces": [["small triangle2", "90", "2 1"], ["small triangle1", "180", "2 0"], ["parrallelogram", "0", "1 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "0 2"], ["small triangle2", "90", "1 1"], ["small triangle1", "0", "2 1"]], "size": "5 5"}
+dif 4
+{"pieces": [["small triangle2", "180", "1 1"], ["small triangle1", "0", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "1 0"], ["square", "180", "1 2"], ["small triangle2", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 0"], ["square", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 1"], ["square", "180", "3 0"], ["small triangle1", "0", "1 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "180", "2 1"], ["square", "180", "3 0"], ["small triangle2", "180", "1 2"], ["small triangle1", "0", "2 0"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "3 1"], ["square", "180", "2 1"], ["small triangle1", "0", "3 0"], ["parrallelogram", "90", "1 0"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "3 1"], ["square", "180", "2 1"], ["small triangle2", "270", "1 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "270", "1 1"], ["small triangle1", "0", "2 2"], ["parrallelogram", "90", "2 2"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "0", "1 0"], ["small triangle1", "0", "2 2"], ["large triangle1", "270", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "3 1"], ["square", "180", "1 1"], ["small triangle2", "0", "2 2"], ["small triangle1", "180", "2 2"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "3 1"], ["square", "180", "2 1"], ["large triangle1", "270", "0 0"], ["parrallelogram", "90", "3 2"]], "size": "5 5"}
+{"pieces": [["square", "180", "2 1"], ["small triangle2", "0", "1 0"], ["small triangle1", "180", "3 1"], ["large triangle1", "270", "0 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "180", "0 2"], ["square", "180", "2 0"], ["small triangle2", "0", "1 1"], ["large triangle1", "270", "2 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "1 1"], ["small triangle2", "90", "1 0"]], "size": "5 5"}
+dif 5
+{"pieces": [["large triangle2", "90", "0 2"], ["square", "180", "3 2"], ["small triangle2", "90", "1 1"], ["small triangle1", "0", "2 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "180", "0 0"], ["square", "180", "1 2"], ["small triangle2", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "180", "0 1"], ["square", "180", "2 0"], ["small triangle2", "0", "1 0"], ["large triangle1", "270", "2 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "180", "0 1"], ["square", "270", "0 0"], ["small triangle2", "0", "0 1"], ["large triangle1", "0", "2 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "180", "1 0"], ["square", "270", "0 3"], ["small triangle2", "90", "0 2"], ["small triangle1", "270", "2 2"]], "size": "5 5"}
+{"pieces": [["square", "270", "2 2"], ["small triangle2", "90", "1 0"], ["small triangle1", "270", "3 2"], ["parrallelogram", "90", "2 0"]], "size": "5 5"}
+{"pieces": [["square", "270", "2 2"], ["small triangle2", "90", "1 2"], ["small triangle1", "90", "3 0"], ["large triangle1", "0", "2 0"]], "size": "5 5"}
+{"pieces": [["small triangle2", "270", "0 0"],["medium triangle", "270", "0 0"],["small triangle1", "180", "3 2"], ["parrallelogram", "90", "2 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "270", "1 0"], ["square", "270", "2 1"], ["small triangle2", "90", "0 1"], ["parrallelogram", "180", "0 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "2 2"], ["medium triangle", "270", "2 1"], ["square", "270", "1 1"], ["small triangle2", "180", "1 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "0 0"], ["square", "270", "3 2"], ["small triangle2", "90", "3 1"], ["large triangle1", "270", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "270", "2 1"], ["square", "270", "2 0"], ["small triangle1", "270", "2 2"], ["parrallelogram", "270", "1 0"]], "size": "5 5"}
+dif 6
+{"pieces": [["large triangle2", "0", "1 0"], ["square", "0", "1 2"], ["small triangle2", "0", "3 1"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "0", "0 0"], ["square", "0", "3 1"], ["small triangle2", "90", "0 1"], ["large triangle1", "0", "1 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "2 2"], ["medium triangle", "90", "0 0"], ["square", "0", "1 1"], ["parrallelogram", "0", "1 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "0 1"], ["square", "0", "3 2"], ["small triangle2", "90", "2 2"], ["small triangle1", "90", "3 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "90", "1 0"], ["square", "0", "1 2"], ["small triangle2", "90", "1 1"], ["large triangle1", "0", "2 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "90", "0 0"], ["square", "0", "2 1"], ["small triangle1", "90", "1 1"], ["parrallelogram", "0", "0 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "90", "1 1"], ["square", "0", "3 1"], ["small triangle2", "90", "3 2"], ["large triangle1", "180", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "90", "2 2"], ["square", "0", "3 1"], ["small triangle2", "90", "3 2"], ["large triangle1", "180", "0 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "2 0"], ["medium triangle", "180", "3 0"], ["large triangle1", "180", "0 0"], ["parrallelogram", "90", "2 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "2 0"], ["square", "0", "1 1"], ["small triangle2", "90", "1 2"], ["small triangle1", "90", "1 0"]], "size": "5 5"}
+{"pieces": [["small triangle2", "90", "1 1"], ["small triangle1", "270", "1 2"], ["large triangle1", "180", "2 0"], ["parrallelogram", "0", "0 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "1 2"], ["square", "0", "2 1"], ["small triangle1", "0", "1 0"], ["parrallelogram", "0", "2 0"]], "size": "5 5"}
+dif 7
+{"pieces": [["large triangle2", "0", "0 0"], ["square", "0", "2 1"], ["large triangle1", "180", "0 0"], ["parrallelogram", "0", "0 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "0 1"], ["square", "0", "2 1"], ["small triangle2", "90", "2 0"], ["parrallelogram", "270", "1 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "2 1"], ["small triangle2", "90", "2 0"], ["small triangle1", "90", "1 2"], ["parrallelogram", "270", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "1 1"], ["square", "0", "2 1"], ["small triangle2", "90", "2 0"], ["parrallelogram", "270", "1 0"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "0 1"], ["small triangle2", "90", "2 0"], ["large triangle1", "0", "1 1"], ["parrallelogram", "90", "3 0"]], "size": "5 5"}
+{"pieces": [["square", "0", "2 2"], ["small triangle2", "90", "2 0"], ["large triangle1", "180", "0 1"], ["parrallelogram", "0", "0 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "0 2"], ["medium triangle", "180", "1 2"], ["square", "0", "2 1"], ["large triangle1", "180", "0 0"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "1 2"], ["square", "0", "0 2"], ["small triangle1", "270", "1 2"], ["large triangle1", "180", "0 0"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "1 2"], ["square", "0", "1 1"], ["small triangle1", "270", "1 2"], ["parrallelogram", "0", "1 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "2 1"], ["square", "0", "1 1"], ["small triangle2", "90", "1 2"], ["parrallelogram", "0", "1 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "1 1"], ["small triangle2", "90", "2 0"], ["small triangle1", "270", "3 0"], ["parrallelogram", "0", "1 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "2 0"], ["square", "0", "1 1"], ["small triangle2", "90", "1 0"], ["parrallelogram", "0", "0 2"]], "size": "5 5"}
+dif 8
+{"pieces": [["large triangle2", "0", "0 0"], ["medium triangle", "0", "2 1"], ["square", "0", "1 1"], ["small triangle2", "0", "2 1"], ["parrallelogram", "270", "0 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "0", "2 0"], ["square", "0", "3 0"], ["small triangle2", "0", "0 1"], ["small triangle1", "0", "2 0"], ["parrallelogram", "270", "1 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "1 0"], ["square", "0", "3 0"], ["small triangle2", "0", "0 0"], ["small triangle1", "0", "3 1"], ["parrallelogram", "270", "2 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "180", "1 1"], ["medium triangle", "0", "2 0"], ["square", "0", "3 2"], ["small triangle1", "0", "3 3"], ["large triangle1", "90", "0 0"]], "size": "5 5"}
+{"pieces": [["medium triangle", "0", "3 0"], ["square", "0", "0 1"], ["small triangle2", "0", "1 2"], ["small triangle1", "180", "1 1"], ["parrallelogram", "270", "2 1"]], "size": "5 5"}
+{"pieces": [["square", "0", "2 1"], ["small triangle2", "180", "3 1"], ["small triangle1", "270", "2 3"], ["large triangle1", "90", "0 0"], ["parrallelogram", "0", "2 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "2 0"], ["square", "0", "1 2"], ["small triangle2", "90", "1 0"], ["small triangle1", "270", "2 2"], ["parrallelogram", "0", "0 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "1 1"], ["medium triangle", "90", "2 2"], ["square", "0", "0 2"], ["small triangle2", "90", "3 1"], ["parrallelogram", "270", "3 0"]], "size": "5 5"}
+{"pieces": [["medium triangle", "0", "2 1"], ["square", "0", "1 1"], ["small triangle2", "90", "0 1"], ["small triangle1", "270", "0 1"], ["parrallelogram", "0", "2 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "1 1"], ["medium triangle", "0", "3 1"], ["small triangle2", "0", "2 2"], ["small triangle1", "0", "3 1"], ["large triangle1", "90", "0 0"]], "size": "5 5"}
+{"pieces": [["medium triangle", "0", "2 2"], ["square", "0", "2 0"], ["small triangle2", "0", "2 1"], ["large triangle1", "90", "0 2"], ["parrallelogram", "90", "2 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "0 0"], ["medium triangle", "90", "1 1"], ["small triangle2", "90", "2 1"], ["small triangle1", "180", "3 2"], ["parrallelogram", "90", "3 1"]], "size": "5 5"}
+dif 9
+{"pieces": [["large triangle2", "270", "1 0"], ["medium triangle", "180", "2 2"], ["square", "0", "0 0"], ["small triangle1", "180", "3 2"], ["large triangle1", "0", "1 2"], ["parrallelogram", "90", "2 0"]], "size": "5 5"}
+{"pieces": [["medium triangle", "90", "0 0"], ["square", "0", "3 1"], ["small triangle2", "270", "3 2"], ["small triangle1", "180", "2 0"], ["large triangle1", "180", "0 0"], ["parrallelogram", "180", "2 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "0 0"], ["medium triangle", "90", "1 1"], ["square", "0", "3 2"], ["small triangle2", "90", "2 0"], ["small triangle1", "180", "3 1"], ["parrallelogram", "90", "3 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "1 1"], ["medium triangle", "90", "1 1"], ["square", "0", "0 1"], ["small triangle2", "90", "2 0"], ["small triangle1", "180", "3 1"], ["parrallelogram", "90", "3 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "0 1"], ["medium triangle", "90", "0 0"], ["small triangle2", "90", "1 0"], ["small triangle1", "180", "0 0"], ["large triangle1", "90", "2 0"], ["parrallelogram", "90", "2 0"]], "size": "5 5"}
+{"pieces": [["medium triangle", "90", "0 0"], ["square", "0", "0 1"], ["small triangle2", "90", "1 0"], ["small triangle1", "180", "0 0"], ["large triangle1", "90", "0 2"], ["parrallelogram", "90", "2 0"]], "size": "5 5"}
+{"pieces": [["medium triangle", "90", "0 0"], ["square", "0", "2 0"], ["small triangle2", "90", "1 0"], ["small triangle1", "180", "0 0"], ["large triangle1", "90", "0 2"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "90", "0 0"], ["square", "0", "2 0"], ["small triangle2", "90", "1 0"], ["small triangle1", "180", "0 0"], ["large triangle1", "180", "1 1"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "90", "0 0"], ["square", "0", "2 0"], ["small triangle2", "90", "1 0"], ["small triangle1", "0", "1 2"], ["large triangle1", "0", "2 2"], ["parrallelogram", "180", "2 1"]], "size": "5 5"}
+{"pieces": [["medium triangle", "180", "0 1"], ["square", "0", "3 2"], ["small triangle2", "0", "2 2"], ["small triangle1", "90", "3 1"], ["large triangle1", "270", "1 1"], ["parrallelogram", "270", "3 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "0 0"], ["medium triangle", "180", "3 0"], ["square", "0", "1 2"], ["small triangle2", "180", "3 1"], ["small triangle1", "180", "1 1"], ["parrallelogram", "270", "2 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "1 1"], ["medium triangle", "180", "2 1"], ["square", "0", "0 2"], ["small triangle2", "0", "0 1"], ["small triangle1", "180", "0 1"], ["parrallelogram", "270", "3 1"]], "size": "5 5"}
+dif 10
+{"pieces": [["medium triangle", "180", "0 0"], ["square", "0", "2 0"], ["small triangle2", "180", "3 0"], ["small triangle1", "90", "1 0"], ["large triangle1", "0", "2 1"], ["parrallelogram", "90", "0 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "0", "2 1"], ["medium triangle", "180", "3 1"], ["square", "0", "1 0"], ["small triangle2", "90", "0 0"], ["small triangle1", "180", "3 2"], ["parrallelogram", "90", "1 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "2 1"], ["medium triangle", "180", "1 1"], ["square", "0", "0 0"], ["small triangle2", "180", "1 2"], ["small triangle1", "180", "1 0"], ["parrallelogram", "90", "0 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "270", "0 0"], ["square", "0", "2 2"], ["small triangle2", "0", "2 1"], ["small triangle1", "180", "2 1"], ["large triangle1", "0", "0 2"], ["parrallelogram", "90", "3 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "2 2"], ["medium triangle", "0", "0 0"], ["square", "0", "1 2"], ["small triangle2", "180", "2 2"], ["small triangle1", "180", "2 1"], ["parrallelogram", "270", "0 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "0 1"], ["square", "0", "0 0"], ["small triangle2", "180", "2 0"], ["small triangle1", "180", "3 1"], ["large triangle1", "90", "2 0"], ["parrallelogram", "0", "2 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "2 0"], ["square", "0", "0 0"], ["small triangle2", "180", "3 1"], ["small triangle1", "180", "2 2"], ["large triangle1", "90", "2 2"], ["parrallelogram", "180", "0 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "2 0"], ["medium triangle", "0", "0 1"], ["square", "0", "1 0"], ["small triangle2", "90", "0 0"], ["small triangle1", "180", "3 1"], ["parrallelogram", "180", "0 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "0 0"], ["medium triangle", "180", "3 1"], ["square", "0", "3 3"], ["small triangle2", "270", "3 1"], ["small triangle1", "180", "1 1"], ["parrallelogram", "180", "2 2"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "1 1"], ["square", "0", "3 2"], ["small triangle2", "270", "0 0"], ["small triangle1", "180", "3 1"], ["large triangle1", "270", "1 1"], ["parrallelogram", "270", "0 0"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "2 2"], ["medium triangle", "90", "2 1"], ["square", "0", "0 0"], ["small triangle2", "90", "3 1"], ["small triangle1", "180", "2 1"], ["parrallelogram", "180", "0 1"]], "size": "5 5"}
+{"pieces": [["large triangle2", "90", "2 2"], ["medium triangle", "90", "0 1"], ["square", "0", "0 0"], ["small triangle2", "90", "2 0"], ["small triangle1", "180", "2 2"], ["parrallelogram", "180", "2 1"]], "size": "5 5"}

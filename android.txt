@@ -1,0 +1,3 @@
+title=TangramApp
+author=Goren Gordon
+orientation=landscape
