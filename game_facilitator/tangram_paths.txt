@@ -1,4 +1,7 @@
 path 1
+{"pieces": [["square", "0", "2 2"]], "size": "5 5"}
+{"pieces": [["square", "0", "2 2"], ["small triangle1", "0", "1 2"]], "size": "5 5"}
+{"pieces": [["square", "0", "2 2"], ["small triangle2", "270", "3 2"], ["small triangle1", "0", "1 2"]], "size": "5 5"}
 {"pieces": [["medium triangle", "180", "0 1"], ["square", "0", "1 1"]], "size": "5 5"}
 {"pieces": [["large triangle2", "0", "0 0"], ["medium triangle", "0", "2 1"], ["square", "0", "1 1"], ["small triangle2", "0", "2 1"], ["parrallelogram", "270", "0 1"]], "size": "5 5"}
 {"pieces": [["large triangle2", "0", "1 0"], ["square", "0", "1 2"], ["small triangle2", "0", "3 1"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}
