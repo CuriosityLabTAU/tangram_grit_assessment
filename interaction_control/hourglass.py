@@ -42,3 +42,6 @@ class HourglassComponent(Component):
     def after_called(self):
         if self.current_state is not 'update':
             self.current_state = 'idle'
+
+    def log_data(self, target=None, action=None):
+        pass
