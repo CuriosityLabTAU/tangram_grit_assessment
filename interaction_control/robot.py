@@ -47,9 +47,6 @@ class RobotComponent(Component):
         return False
 
     def express(self, action):
-        print("rinat express", action, action[0])
-        print("TangramGame.cog_tangram_selection=", TangramGame.cog_tangram_selection)
-        print ('question=', self.question_index)
         self.current_state = 'express'
         if len(action) > 1:
             self.current_param = action[1:]
@@ -57,40 +54,24 @@ class RobotComponent(Component):
         if self.animation is None:
             self.expression = action[0]
             if KC.client.connection:
-                print('if KC.client.connection:')
                 data = [action[0], self.expression]
                 data = {self.robot_name: data}
                 KC.client.send_message(str(json.dumps(data)))
 
             if self.app:
-                print("if self.app:")
                 self.app.robot_express(self.expression)
 
         elif 'idle' not in action[0]:
             # select the animation
             the_options = self.animation[action[0]]
             the_expressions = []
-            what = action[0]  # Rinat added
             if isinstance(the_options, list):
-                if what == "ask_question_party": #Rinat added
-                    if self.agent.condition=='c+g-' or self.agent.condition == 'c+g+': #Rinat added
-                        the_expressions = self.add_expression(the_expressions, choice(the_options)) #Rinat added
-                else: #Rinat added
-                    the_expressions = self.add_expression(the_expressions, choice(the_options))
+                the_expressions = self.add_expression(the_expressions, choice(the_options))
             elif isinstance(the_options, dict):
-                # Rinat added
-                if what == "ask_question_robot_play":
-                    self.question_index += 1
-                    if self.agent.condition == 'c+g-' or self.agent.condition == 'c+g+':
-                        the_expressions = self.add_expression(the_expressions, the_options['question' + str(self.question_index)])
-                elif what == "my_turn":
-                    the_expressions = self.add_expression(the_expressions,the_options[self.agent.condition][TangramGame.cog_tangram_selection])
-                else:
-                # Rinat end
-                    if 'all' in the_options:
-                        the_expressions = self.add_expression(the_expressions, choice(the_options['all']))
-                    if self.agent.condition in the_options:
-                        the_expressions = self.add_expression(the_expressions, choice(the_options[self.agent.condition]))
+                if 'all' in the_options:
+                    the_expressions = self.add_expression(the_expressions, choice(the_options['all']))
+                if self.agent.condition in the_options:
+                    the_expressions = self.add_expression(the_expressions, choice(the_options[self.agent.condition]))
 
             self.expression = the_expressions
 
@@ -100,7 +81,9 @@ class RobotComponent(Component):
                 KC.client.send_message(str(json.dumps(data)))
 
             if self.app:
-                self.app.robot_express(self.expression)
+                print('data: ',[action[0], self.expression])
+                self.app.robot_express(action[0], self.expression)
+
 
     def add_expression(self, base, add):
         if len(base) == 0:
