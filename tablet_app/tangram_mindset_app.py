@@ -541,6 +541,7 @@ class TangramMindsetApp(App):
         self.interaction.components['tablet'].app = self
         if not GAME_WITH_ROBOT:
             self.interaction.components['robot'].app = self
+            self.interaction.components['robot'].load_text(filename='./tablet_app/robot_text_grit_assess.json') #added in order to play sound files
         else:
             if STUDY_SITE == 'MIT':
                 self.interaction.components['robot'].load_text(filename='./tablet_app/robot_text_revised3.json')
@@ -551,7 +552,7 @@ class TangramMindsetApp(App):
         self.interaction.load(filename='./tablet_app/transitions.json')
         self.interaction.next_interaction()
 
-        # self.load_sounds()
+        self.load_sounds()
         self.init_communication()
 
         self.screen_manager = MyScreenManager()
@@ -586,7 +587,22 @@ class TangramMindsetApp(App):
 
     def load_sounds(self):
         # load all the wav files into a dictionary whose keys are the expressions from the transition.json
-        sound_list = ['introduction', 'click_balloon']
+        sound_list = ['introduction', 'click_balloon', 'introduction_c-g-_0', 'introduction_c-g+_0', 'ask_again_0', \
+                      'ask_again_1', 'let_play_0', 'selection_tutorial_all_0_question', 'selection_tutorial_c-g-_0', \
+                      'tangram_tutorial_all_0_faster', 'move_explanation_c-g-_0',\
+                      'move_explanation_c-g-_0', 'move_explanation_c-g-_1', 'move_explanation_c-g-_2',\
+                      'move_explanation_c-g-_3', 'move_explanation_c-g-_4',\
+                      'child_win_c-g-_0', 'child_win_c-g-_1', 'child_win_c-g-_2', 'child_win_c-g-_3', 'child_win_c-g-_4',\
+                      'child_win_c-g-_5', 'child_win_c-g-_6', 'child_win_c-g-_7', \
+                      'robot_win_c-g-_0', 'robot_win_c-g-_1',\
+                      'robot_win_c-g-_2', 'robot_win_c-g-_3', 'robot_win_c-g-_4', 'robot_win_c-g-_5', 'robot_win_c-g-_6',\
+                      'robot_win_c-g-_7',\
+                      'robot_lose_c-g-_0', 'robot_lose_c-g-_1', 'robot_lose_c-g-_2', 'robot_lose_c-g-_3', 'robot_lose_c-g-_4',
+                      'child_lose_c-g-_0', 'child_lose_c-g-_1', 'child_lose_c-g-_3', 'child_lose_c-g-_4', 'child_lose_c-g-_5',\
+                      'your_turn_all_0', 'your_turn_all_1', 'your_turn_all_2', 'your_turn_all_3', 'your_turn_all_4','your_turn_all_0',\
+                      'your_turn_c-g-_0', 'your_turn_c-g-_1', 'your_turn_c-g-_2', 'your_turn_c-g-_3', 'your_turn_c-g-_4',\
+                      'your_turn_c-g-_5', 'your_turn_c-g-_6', 'comment_move_c-g-_0', 'comment_move_c-g-_1', 'comment_move_c-g-_2',\
+                      'comment_move_c-g-_3', 'comment_move_c-g-_4', 'comment_move_c-g-_5', 'conclusion_all_0', 'party_all_0']
         self.sounds = {}
         for s in sound_list:
             self.sounds[s] = SoundLoader.load("./tablet_app/sounds/" + s + ".m4a")
@@ -713,21 +729,30 @@ class TangramMindsetApp(App):
         self.screen_manager.get_screen('solve_tangram_room').init_task(x, the_app=self)
         self.screen_manager.current = 'solve_tangram_room'
 
-    def robot_express(self, action):
+    def robot_express(self, action, expression):
         # robot is saying action
-        print ('robot_express ',action)
+        print ('robot_express action',action, ' expression ', expression)
         self.current_sound = action
+
+        sound_filename = ''
+        for name in expression[1:]:
+            if name.lower() == name:
+                print('filename: ',name)
+                sound_filename = name
+
         # attempt tts
-        if self.text_handler.say(self.current_sound):
+        #if self.text_handler.say(self.current_sound):
+        if 1==0:
             self.finish_robot_express(0)
         else:   # attempt recorded speech
             try:
-                sound = self.sounds[self.current_sound]
+                print('current_sound: ',sound_filename)
+                sound = self.sounds[sound_filename]
                 print(sound)
                 sound.bind(on_stop=self.finish_robot_express)
                 sound.play()
             except: # there is no sound for
-                print('no sound for: ', self.current_sound)
+                print('no sound for: ', sound_filename)
                 self.finish_robot_express(0)
 
     def finish_robot_express (self, dt):
