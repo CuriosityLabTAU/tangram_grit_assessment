@@ -12,7 +12,7 @@
   "opening": {
     "start": "tablet:zero_screen",
     "internal_clock": [
-      "how_long:20"
+      "how_long:600"
     ],
     "transitions": [
       "tablet:zero_screen:child:zero_screen:1",
