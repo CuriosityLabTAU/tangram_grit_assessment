@@ -587,7 +587,7 @@ class TangramMindsetApp(App):
 
     def load_sounds(self):
         # load all the wav files into a dictionary whose keys are the expressions from the transition.json
-        sound_list = ['introduction', 'click_balloon', 'introduction_c-g-_0', 'introduction_c-g+_0', 'ask_again_0', \
+        sound_list = ['introduction', 'click_balloon', 'introduction_c-g-_0', 'ask_again_0', \
                       'ask_again_1', 'let_play_0', 'selection_tutorial_all_0_question', 'selection_tutorial_c-g-_0', \
                       'tangram_tutorial_all_0_faster', 'move_explanation_c-g-_0',\
                       'move_explanation_c-g-_0', 'move_explanation_c-g-_1', 'move_explanation_c-g-_2',\
