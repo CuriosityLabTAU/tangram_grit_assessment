@@ -593,7 +593,7 @@ class TangramMindsetApp(App):
                       'move_explanation_c-g-_0', 'move_explanation_c-g-_1', 'move_explanation_c-g-_2',\
                       'move_explanation_c-g-_3', 'move_explanation_c-g-_4',\
                       'child_win_c-g-_0', 'child_win_c-g-_1', 'child_win_c-g-_2', 'child_win_c-g-_3', 'child_win_c-g-_4',\
-                      'child_win_c-g-_5', 'child_win_c-g-_6', 'child_win_c-g-_7', \
+                      'child_win_c-g-_5', 'child_win_c-g-_6', \
                       'robot_win_c-g-_0', 'robot_win_c-g-_1',\
                       'robot_win_c-g-_2', 'robot_win_c-g-_3', 'robot_win_c-g-_4', 'robot_win_c-g-_5', 'robot_win_c-g-_6',\
                       'robot_win_c-g-_7',\
