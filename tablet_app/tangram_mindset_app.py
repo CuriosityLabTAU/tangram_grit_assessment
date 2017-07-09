@@ -597,9 +597,8 @@ class TangramMindsetApp(App):
                       'robot_win_c-g-_0', 'robot_win_c-g-_1',\
                       'robot_win_c-g-_2', 'robot_win_c-g-_3', 'robot_win_c-g-_4', 'robot_win_c-g-_5', 'robot_win_c-g-_6',\
                       'robot_win_c-g-_7',\
-                      'robot_lose_c-g-_0', 'robot_lose_c-g-_1', 'robot_lose_c-g-_2', 'robot_lose_c-g-_3', 'robot_lose_c-g-_4',
                       'child_lose_c-g-_0', 'child_lose_c-g-_1', 'child_lose_c-g-_3', 'child_lose_c-g-_4', 'child_lose_c-g-_5',\
-                      'your_turn_all_0', 'your_turn_all_1', 'your_turn_all_2', 'your_turn_all_3', 'your_turn_all_4','your_turn_all_0',\
+                      'your_turn_all_0', 'your_turn_all_1', 'your_turn_all_2', 'your_turn_all_3', 'your_turn_all_4',\
                       'your_turn_c-g-_0', 'your_turn_c-g-_1', 'your_turn_c-g-_2', 'your_turn_c-g-_3', 'your_turn_c-g-_4',\
                       'your_turn_c-g-_5', 'your_turn_c-g-_6', 'comment_move_c-g-_0', 'comment_move_c-g-_1', 'comment_move_c-g-_2',\
                       'comment_move_c-g-_3', 'comment_move_c-g-_4', 'comment_move_c-g-_5', 'conclusion_all_0', 'party_all_0']
