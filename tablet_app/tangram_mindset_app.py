@@ -579,8 +579,9 @@ class TangramMindsetApp(App):
         elif STUDY_SITE == 'MIT':
             local_ip = '192.168.1.254'
         KC.start(the_parents=[self, self.interaction.components['robot']], the_ip=local_ip)  # 127.0.0.1
-        KL.start(mode=[DataMode.file, DataMode.communication, DataMode.ros], pathname=self.user_data_dir, the_ip=local_ip)
-
+        # KL.start(mode=[DataMode.file, DataMode.communication, DataMode.ros], pathname=self.user_data_dir, the_ip=local_ip)
+        # KL.start(mode=[], pathname=self.user_data_dir, the_ip=local_ip)
+        KL.start(mode=[DataMode.file], pathname=self.user_data_dir,)
     def on_connection(self):
         KL.log.insert(action=LogAction.data, obj='TangramMindsetApp', comment='start')
 
