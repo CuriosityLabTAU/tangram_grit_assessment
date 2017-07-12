@@ -6,7 +6,7 @@ from random import choice
 from tablet_app.tangram_game import *
 
 
-is_logged = True
+# is_logged = True
 try:
     from kivy_communication import *
 except:
