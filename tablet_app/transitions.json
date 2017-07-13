@@ -35,7 +35,7 @@
   "tutorial": {
     "start": "robot:start_tutorial",
     "internal_clock": [
-      "how_long:20"
+      "how_long:120"
     ],
     "transitions": [
       "robot:start_tutorial:game:generate_selection:1:done",
