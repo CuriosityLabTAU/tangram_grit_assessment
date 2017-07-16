@@ -124,6 +124,12 @@ class SolveTangramRoom(Screen):
         self.ids['treasure_box'].ids['box'].source = './tablet_app/images/TreasureOpenBoxLayers_B.gif'
         self.ids['treasure_box'].ids['balloon'].source = './tablet_app/images/Balloon_Price'+str(i)+'.gif'
         self.ids['treasure_box'].ids['balloon'].opacity = 1
+        anim = Animation(x=self.ids['treasure_box'].ids['balloon'].pos[0],
+                         y=self.ids['treasure_box'].ids['balloon'].pos[1]*1.1,
+                         duration=0.5)
+        anim.start(self.ids['treasure_box'].ids['balloon'])
+
+
         for c in self.ids['tangram_game_widget'].children:
             if isinstance(c, TangramPiece):
                 if (c.pos[1] > self.size[1] * 0.65): #if the pieces is still on top make it invisible
