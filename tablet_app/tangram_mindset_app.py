@@ -37,7 +37,11 @@ GAME_WITH_ROBOT = False  # False
 STUDY_SITE = 'TAU'      #'TAU'      # MIT
 
 class ZeroScreen(Screen):
-    pass
+    def on_enter(self, *args):
+        KL.log.insert(action=LogAction.data, obj='subject', comment='the_end', sync=True)
+
+    def start(self):
+        self.ids['subject_id'].bind(text=self.ids['subject_id'].on_text_change)
 
 class MyScreenManager (ScreenManager):
     the_tablet = None
@@ -96,6 +100,8 @@ class TangramMindsetApp(App):
 
         self.screen_manager = MyScreenManager()
         zero_screen = ZeroScreen()
+        zero_screen.start()
+
         self.screen_manager.add_widget(zero_screen)
         self.screen_manager.add_widget(FirstScreenRoom(self.interaction.components['tablet']))
         self.screen_manager.add_widget(SelectionScreenRoom(self.interaction.components['tablet']))
