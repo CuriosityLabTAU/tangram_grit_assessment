@@ -113,8 +113,12 @@ class TangramMindsetApp(App):
 
     def on_start(self):
         print ('app: on_start')
-        TangramGame.SCALE = round(self.root_window.size[0] / 60)
-        TangramGame.window_size = self.root_window.size
+        try:
+            TangramGame.SCALE = round(self.root_window.size[0] / 60)
+            TangramGame.window_size = self.root_window.size
+        except:
+            TangramGame.SCALE = round(self.root.size[0] / 60)
+            TangramGame.window_size = self.root.size
 
     def init_communication(self):
         local_ip = '192.168.1.254'
