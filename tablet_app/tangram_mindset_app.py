@@ -108,7 +108,6 @@ class TangramMindsetApp(App):
         self.screen_manager.add_widget(PartyScreenRoom(self.interaction.components['tablet']))
         self.screen_manager.add_widget(s)
 
-
         return self.screen_manager
 
     def on_start(self):
@@ -154,7 +153,7 @@ class TangramMindsetApp(App):
                       'comment_move_c-g-_3', 'comment_move_c-g-_4', 'comment_move_c-g-_5', 'conclusion_all_0', 'party_all_0']
         self.sounds = {}
         for s in sound_list:
-            self.sounds[s] = SoundLoader.load("./tablet_app/sounds/" + s + ".m4a")
+            self.sounds[s] = SoundLoader.load("./tablet_app/sounds/" + s + ".wav")
         self.current_sound = None
 
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
