@@ -6,6 +6,7 @@ class Interaction:
     data = None
     components = {}
     current_interaction = None
+    the_app = None
 
     def __init__(self):
         pass
@@ -45,7 +46,10 @@ class Interaction:
     def next_interaction(self):
         self.current_interaction += 1
         if self.current_interaction >= len(self.data['sequence']):
+            KL.log.insert(action=LogAction.data, obj='game', comment='the_end', sync=True)
             print('THE END!')
+            if self.the_app:
+                self.the_app.stop()
             return True
         the_interaction = self.data['sequence'][self.current_interaction]
         the_data = self.data[the_interaction]

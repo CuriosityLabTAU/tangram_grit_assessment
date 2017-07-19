@@ -36,12 +36,14 @@ from random import choice
 GAME_WITH_ROBOT = False  # False
 STUDY_SITE = 'TAU'      #'TAU'      # MIT
 
+
 class ZeroScreen(Screen):
     def on_enter(self, *args):
-        KL.log.insert(action=LogAction.data, obj='subject', comment='the_end', sync=True)
+        KL.log.insert(action=LogAction.data, obj='subject', comment='start', sync=True)
 
     def start(self):
         self.ids['subject_id'].bind(text=self.ids['subject_id'].on_text_change)
+
 
 class MyScreenManager (ScreenManager):
     the_tablet = None
@@ -73,6 +75,7 @@ class TangramMindsetApp(App):
              ('hourglass', 'HourglassComponent')
              ]
         )
+        self.interaction.the_app = self
         self.interaction.components['tablet'] = TabletComponent(self.interaction, 'tablet')
         self.interaction.components['game'] = GameComponent(self.interaction, 'game')
         self.interaction.components['game'].game_facilitator = GameFacilitator()
