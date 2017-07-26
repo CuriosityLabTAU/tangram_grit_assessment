@@ -22,6 +22,7 @@ class SolveTangramRoom(Screen):
     the_tablet = None
     tangram_game_widget = None
     time_is_up = False
+    disabled_ = None
 
     def __init__(self, the_tablet):
         self.the_tablet = the_tablet
@@ -100,20 +101,24 @@ class SolveTangramRoom(Screen):
         #tangram_game_widget.update_task_pieces(x)
 
     def disable_widgets(self):
+        SolveTangramRoom.disabled_ = True
         for c in self.ids['tangram_game_widget'].children:
             if isinstance(c, TangramPiece):
                 c.do_rotation = False
                 c.do_translation = False
                 c.do_scale = False
+                c.disabled = True
             else:
                 c.disabled = True
 
-    def enable(self):
+    def enable_widgets(self):
+        SolveTangramRoom.disabled_ = False
         for c in self.ids['tangram_game_widget'].children:
             if isinstance(c, TangramPiece):
-                c.do_rotation = False
+                c.do_rotation = True
                 c.do_translation = True
-                c.do_scale = False
+                c.do_scale = True
+                c.disabled = False
             else:
                 c.disabled = False
 
@@ -402,9 +407,11 @@ class TangramGameWidget(Widget):
 
     def check_solution (self):
         # this function is called from tangram_game: TangramPiece class after touch_up on piece
-        solution_json = self.export_task()
-        self.the_app.tangram_move(solution_json)
-        print ("check_solution:", self.the_app.check_solution(solution_json))
+        print ('solve_tangram_room:check_solution','disabled_:',SolveTangramRoom.disabled_)
+        if SolveTangramRoom.disabled_ is False:
+            solution_json = self.export_task()
+            self.the_app.tangram_move(solution_json)
+            print ("check_solution:", self.the_app.check_solution(solution_json))
 
     def export_task(self):
         # export current pieces to json string in Task format
