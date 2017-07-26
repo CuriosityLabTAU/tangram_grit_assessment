@@ -69,7 +69,7 @@
   },
   "child_play": {
     "start": "child:start_play",
-    "hourglass": ["max_counter:10"],
+    "hourglass": ["max_counter:120"],
     "transitions": [
       "child:start_play:game:generate_selection:1",
       "game:generate_selection:tablet:selection_screen:1:x",
