@@ -13,7 +13,7 @@ package.domain = com.gorengordon.curiosity
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas,json,m4a,mp3,gif,txt,pkl,wav,ttf
+source.include_exts = py,png,jpg,kv,atlas,json,m4a,gif,txt
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
@@ -25,7 +25,7 @@ source.exclude_dirs = bin
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.1
+version = 2.0
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -33,7 +33,8 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy,pycrypto,numpy,twisted,plyer
+#requirements = hostpython2,kivy,twisted
+requirements = kivy,pycrypto,numpy,plyer,android,incremental==16.10.0, twisted==15.4.0
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -54,6 +55,8 @@ orientation = landscape
 #
 # OSX Specific
 #
+osx.python_version = 2
+osx.kivy_version = 1.9.1
 
 #
 # author = © Copyright Info
@@ -69,7 +72,7 @@ fullscreen = 1
 android.permissions = INTERNET,ACCESS_WIFI_STATE,CHANGE_WIFI_STATE,CHANGE_NETWORK_STATE,ACCESS_NETWORK_STATE,CAMERA,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
 
 # (int) Android API to use
-#android.api = 14
+# android.api = 14
 
 # (int) Minimum API required
 #android.minapi = 9
@@ -93,7 +96,8 @@ android.permissions = INTERNET,ACCESS_WIFI_STATE,CHANGE_WIFI_STATE,CHANGE_NETWOR
 #android.ant_path =
 
 # (str) python-for-android git clone directory (if empty, it will be automatically cloned from github)
-#android.p4a_dir =
+#p4a.source_dir = /home/prg/projects/python-for-android
+p4a.source_dir = /home/python-for-android
 
 # (list) python-for-android whitelist
 #android.p4a_whitelist =
