@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab3179ed-cce5-4d08-ab13-045a52386c0e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/tangram_grit_assessment.iml" afterPath="$PROJECT_DIR$/.idea/tangram_grit_assessment.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/buildozer.spec" afterPath="$PROJECT_DIR$/buildozer.spec" />
-      <change beforePath="$PROJECT_DIR$/tablet_app/solve_tangram_room.py" afterPath="$PROJECT_DIR$/tablet_app/solve_tangram_room.py" />
     </list>
     <ignored path="tangram_grit_assessment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -417,6 +413,14 @@
       <option name="presentableId" value="Default" />
       <updated>1530049132764</updated>
     </task>
+    <task id="LOCAL-00001" summary="- m4a to wav files changes&#10;- buildozer.spec changes">
+      <created>1530116080155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530116080155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -453,6 +457,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- m4a to wav files changes&#10;- buildozer.spec changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- m4a to wav files changes&#10;- buildozer.spec changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
