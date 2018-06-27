@@ -155,7 +155,7 @@ class Rotate(LoggedButton):
         self.name = "rotate_btn"
         self.background_normal = 'buttons/arrow_rotate.png'
         self.size = (TangramGame.SCALE * 4, TangramGame.SCALE * 4)
-        self.press_rotate_sound = SoundLoader.load('./tablet_app/sounds/tongue-click.m4a')
+        self.press_rotate_sound = SoundLoader.load('./tablet_app/sounds/tongue-click.wav')
 
     def on_press(self):
     # press the rotate button
@@ -245,7 +245,7 @@ class TangramGameWidget(Widget):
         super(TangramGameWidget, self).__init__(**kwargs)
         self.canvas.clear()
         self.clear_widgets()
-        self.robot_press_rotate_sound = SoundLoader.load('./tablet_app/sounds/tongue-click.m4a')
+        self.robot_press_rotate_sound = SoundLoader.load('./tablet_app/sounds/tongue-click.wav')
 
     def reset(self, the_app):
         self.the_app = the_app
@@ -472,7 +472,7 @@ class HourGlassWidget (Widget):
 
     def after_init(self, *args):
         print ('HourGlassWidget: after init')
-        self.time_over_sound = SoundLoader.load('./tablet_app/sounds/time_over.m4a')
+        self.time_over_sound = SoundLoader.load('./tablet_app/sounds/time_over.wav')
         self.hourglass = self.ids['hourglass']
         self.topSand = self.ids['topSand']
         self.middleSand = self.ids['middleSand']
